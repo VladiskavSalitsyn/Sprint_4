@@ -24,6 +24,10 @@ public class FaqAccordionTest {
     private final boolean faqAccordionItemPanelHiddenExpected; //true - element is hidden, false - element isn't hidden
     private final String faqAccordionItemPanelTextExpected;
 
+    // Локаторы
+    public static final String ACCORDION_HEADING_0 = "accordion__heading-0";
+    public static final String ACCORDION_HEADING_3 = "accordion__heading-3";
+
     public FaqAccordionTest(String accordionItemId, boolean faqAccordionItemPanelHiddenExpected, String faqAccordionItemPanelText){
         this.faqAccordionItemId = accordionItemId;
         this.faqAccordionItemPanelHiddenExpected = faqAccordionItemPanelHiddenExpected;
@@ -33,8 +37,8 @@ public class FaqAccordionTest {
     @Parameterized.Parameters
     public static Object[][] getInputData() {
         return new Object[][] {
-                {"accordion__heading-0", false, "Сутки — 400 рублей. Оплата курьеру — наличными или картой."},
-                {"accordion__heading-3", false, "Только начиная с завтрашнего дня. Но скоро станем расторопнее."},
+                {ACCORDION_HEADING_0, false, "Сутки — 400 рублей. Оплата курьеру — наличными или картой."},
+                {ACCORDION_HEADING_3, false, "Только начиная с завтрашнего дня. Но скоро станем расторопнее."},
         };
     }
 
