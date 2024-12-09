@@ -31,8 +31,8 @@ public class FaqAccordionTest {
     public static final String ACCORDION_HEADING_3 = "accordion__heading-3";
     public static final String ACCORDION_HEADING_4 = "accordion__heading-4";
     public static final String ACCORDION_HEADING_5 = "accordion__heading-5";
-    public static final String ACCORDION_HEADING_6 = "accordion__heading-5";
-    public static final String ACCORDION_HEADING_7 = "accordion__heading-5";
+    public static final String ACCORDION_HEADING_6 = "accordion__heading-6";
+    public static final String ACCORDION_HEADING_7 = "accordion__heading-7";
 
     public FaqAccordionTest(String accordionItemId, boolean faqAccordionItemPanelHiddenExpected, String faqAccordionItemPanelText){
         this.faqAccordionItemId = accordionItemId;
