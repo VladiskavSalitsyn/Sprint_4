@@ -115,5 +115,3 @@ public class OrderPage {
         clickMoveToConfirmationOrderButton();
     }
 }
-
-//для отображаения слияния

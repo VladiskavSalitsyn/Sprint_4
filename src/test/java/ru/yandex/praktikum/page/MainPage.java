@@ -68,5 +68,3 @@ public class MainPage {
         driver.findElement(moveToOrderLowerButton).click();
     }
 }
-
-//для отображаения слияния

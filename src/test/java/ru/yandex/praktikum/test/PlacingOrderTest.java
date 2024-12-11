@@ -95,8 +95,4 @@ public class PlacingOrderTest {
     public void teardown() {
         driver.quit();
     }
-
-    //специально добавил это коммит, чтобы было отображение сравнения
 }
-
-//для отображаения слияния
